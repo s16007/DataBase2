@@ -1,5 +1,4 @@
-select count(job_id), job_id 
+select last_name, department_id
 from employees
-group by job_id
-order by job_id
+where last_name = &last_name
 /
