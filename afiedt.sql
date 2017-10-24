@@ -1,5 +1,4 @@
-select last_name, department_id, job_id
-from employees natural join departments
-where location_id =any 
-	(select location_id from departments where location_id = 1700)
+select country_id, country_name from countries
+union
+select country_id, country_name from countries
 /
