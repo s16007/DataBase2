@@ -1,6 +1,6 @@
 -- DEFINE _EDITOR="/usr/bin/subl -n -w"
 
-set linesize 60
+set linesize 200
 
 -- desc
 -- col 名前 for a10
